@@ -29,5 +29,8 @@ sbt run                          // should run it,  or use an IDE
 http://127.0.0.1:8081/weather/lat/37.336630/lon/-121.940120 
 
 you should see something similar to:  
-{"clouds":"broken clouds","heatAlert":false,"humidity":44,"hurricaneAlert":false,"iceAlert":false,"lat":37.33663,"lon":-121.94012,"temp":293.91,"tempMax":297.9,"tempMin":288.54,"wind":2.57,"windAlert":false}
+{"clouds":"broken clouds",  
+"heatAlert":false,"humidity":44,"hurricaneAlert":false,  
+"iceAlert":false,"lat":37.33663,"lon":-121.94012,  
+"temp":293.91,"tempMax":297.9,"tempMin":288.54,"wind":2.57,"windAlert":false}
 
