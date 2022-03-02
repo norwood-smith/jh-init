@@ -21,9 +21,9 @@ weather-app {
 git clone git@github.com:norwood-smith/jh-weather.git
 
 # running the application
-cd ~/path/to/project/jh-weather  //move into directory
-sbt clean compile  // should compile the project
-sbt run            // should run it,  or use an IDE
+cd ~/path/to/project/jh-weather  //move into directory  
+sbt clean compile                // should compile the project  
+sbt run                          // should run it,  or use an IDE
 
 # use a browser to do the GET request 
 http://127.0.0.1:8081/weather/lat/37.336630/lon/-121.940120 
