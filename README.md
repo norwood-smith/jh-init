@@ -7,14 +7,14 @@ jack henry
 - Configure these as needed.
  
 weather-app {  
-  system {  
-    interface-host = "localhost"  
-    interface-port = 8081  
-  }  
-  routes {  
-    ask-timeout = 5s  
-    api-key = "19910acd41211f853d61c136540c92eb"  
-  }  
+    system {  
+        interface-host = "localhost"  
+        interface-port = 8081  
+    }  
+    routes {  
+        ask-timeout = 5s  
+        api-key = "19910acd41211f853d61c136540c92eb"  
+    }  
 }
 
 # clone project from github
